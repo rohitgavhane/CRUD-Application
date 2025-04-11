@@ -1,0 +1,70 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Wrapper to control layout */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure content area takes up remaining space */
+.content {
+  flex: 1;
+}
+
+/* Footer styling override if fixed-bottom */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #111;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Footer links */
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d6efd; /* Bootstrap primary color */
+}
+
+/* Adjust margin for fixed footer if needed */
+@media (max-width: 767px) {
+  .content {
+    margin-bottom: 60px; /* Height of footer if fixed */
+  }
+}
+
+
+
+/* src/App.css */
+
+/* Custom Jumbotron style */
+.jumbotron-custom {
+  background: linear-gradient(135deg, #000000, #9655ff);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004ba0;
+  transition: all 0.3s ease;
+}
+
+
+
+
+

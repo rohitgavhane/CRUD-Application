@@ -1,0 +1,48 @@
+/* AllStudent.css */
+
+body {
+    background: linear-gradient(135deg, #e0f7fa, #fff3e0);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .student-card {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .student-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card-id {
+    font-size: 0.8rem;
+    color: #888;
+  }
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
